@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>... меню як у main.html ...</header>
+
+    <section>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name">
+            <label for="login">Логін:</label>
+            <input type="text" id="login" name="login">
+            <label for="email">Імейл:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password">
+            <label for="confirm_password">Підтвердження паролю:</label>
+            <input type="password" id="confirm_password" name="confirm_password">
+
+            <label>Гендер:</label>
+            <input type="checkbox" id="male" name="gender" value="male"> Чоловік
+            <input type="checkbox" id="female" name="gender" value="female"> Жінка
+
+            <label for="birth_date">Дата народження:</label>
+            <select id="day" name="day"> ... </select>
+            <select id="month" name="month"> ... </select>
+            <select id="year" name="year"> ... </select>
+
+            <label for="about">Про себе:</label>
+            <textarea id="about" name="about"></textarea>
+
+            <button type="submit">Зареєструватись</button>
+        </form>
+    </section>
+
+    <footer> ... </footer>
+</body>
+</html>
